@@ -12,7 +12,7 @@ function SearchEngine({ query, setQuery, search }) {
   <input
     type="text"
     className="city-search"
-    placeholder="enter city name"
+    placeholder="Enter City Name"
     name="query"
     value={query}
     onChange={(e) => setQuery(e.target.value)}
